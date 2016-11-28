@@ -1,0 +1,48 @@
+$primary-color: #ff2052;
+$error-color: #a94442;
+$success-color: #3c763d;
+
+body {
+	color: $primary-color;
+}
+
+button {
+	background-color: $primary-color !important;
+	color: white !important;
+}
+
+a {
+	text-decoration: none;
+}
+
+span > ul {
+	list-style-type: none;
+	color: $error-color;
+}
+
+/* Color of invalid field */
+/* originally from bootstrap*/
+.has-error > input
+{
+		box-shadow: 0 0 5px $error-color;
+		padding: 3px 0px 3px 3px;
+		margin: 5px 1px 3px 0px;
+		border: 1px solid $error-color;
+	// -webkit-transition: all 0.30s ease-in-out;
+	// -moz-transition: all 0.30s ease-in-out;
+	// -ms-transition: all 0.30s ease-in-out;
+	// -o-transition: all 0.30s ease-in-out;
+	// outline: none;
+	// padding: 3px 0px 3px 3px;
+	// margin: 5px 1px 3px 0px;
+	// border: 1px solid #a94442;
+}
+
+/* Color of valid field */
+/* originally from bootstrap*/
+.has-success > input{
+		box-shadow: 0 0 5px $success-color;
+	 	padding: 3px 0px 3px 3px;
+	 	margin: 5px 1px 3px 0px;
+	 	border: 1px solid $success-color;
+}

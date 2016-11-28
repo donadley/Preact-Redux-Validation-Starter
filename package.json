@@ -1,0 +1,50 @@
+{
+  "name": "react-redux-validation-starter",
+  "version": "1.0.0",
+  "description": "Create bootstrap user interface styled with SASS that uses React and JOI",
+  "main": "index.js",
+  "scripts": {
+    "test": "karma start",
+    "start": "webpack-dev-server --progress --colors --inline --hot ",
+    "validate-webpack": "webpack-validator webpack.config.js",
+    "build": "webpack --progress --colors"
+  },
+  "keywords": [
+    "bootstrap",
+    "React",
+    "SASS",
+    "JOI",
+    "validation"
+  ],
+  "author": "Don Adley",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.8",
+    "babel-plugin-transform-runtime": "^6.15.0",
+    "babel-preset-latest": "^6.16.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "css-loader": "^0.23.1",
+    "json-loader": "^0.5.4",
+    "node-sass": "^3.8.0",
+    "sass-loader": "^4.0.0",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.3",
+    "webpack-validator": "^2.2.9"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.16.0",
+    "babel-runtime": "^6.18.0",
+    "classnames": "^2.2.5",
+    "joi": "^10.0.1",
+    "joi-validation-strategy": "^0.3.3",
+    "preact": "^6.4.0",
+    "preact-compat": "^3.9.2",
+    "preact-router": "^2.3.2",
+    "react-redux": "^4.4.6",
+    "react-validation-mixin": "^5.4.0",
+    "redux": "^3.6.0"
+  }
+}

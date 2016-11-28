@@ -1,0 +1,1 @@
+export const SET_USER_LOCALLY = 'SET_USER_LOCALLY';
