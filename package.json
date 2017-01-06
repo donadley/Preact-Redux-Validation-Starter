@@ -1,5 +1,5 @@
 {
-  "name": "react-redux-validation-starter",
+  "name": "preact-redux-validation-starter",
   "version": "1.0.0",
   "description": "Create bootstrap user interface styled with SASS that uses React and JOI",
   "main": "index.js",
@@ -11,7 +11,7 @@
   },
   "keywords": [
     "bootstrap",
-    "React",
+    "Preact",
     "SASS",
     "JOI",
     "validation"

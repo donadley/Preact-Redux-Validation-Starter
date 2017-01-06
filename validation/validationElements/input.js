@@ -58,6 +58,7 @@ class Input extends Component {
 		return (
         <div className={this.getClasses(this.props.name)}>
 						<input
+							id={this.props.id}
 							class={this.props.class}
 							placeholder={this.props.placeholder}
 							type={this.props.type || 'text'}
